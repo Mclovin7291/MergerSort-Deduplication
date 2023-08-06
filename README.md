@@ -1,2 +1,2 @@
 # MergerSort-Deduplication
-This Java code implements a program that performs merge sort on an array of integers while also removing duplicates.
+This code essentially takes an array of integers, performs merge sort to sort the array, removes duplicate elements, and then prints the modified array without duplicates. The merge sort algorithm recursively divides the array into smaller sub-arrays, sorts them, and then merges them back together. The deDuplication function eliminates duplicate elements by moving non-duplicate elements towards the front of the array and returning the new size of the array.
